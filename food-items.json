@@ -1,0 +1,93 @@
+{ 
+  "North Indian": [
+    {
+      "name": "Butter Naan",
+      "price": 40,
+      "image": "https://devansh1bhardwaj.github.io/BiteExpress.github.io/images/north%20indian/butter%20naan.jpeg"
+    },
+    {
+      "name": "Dal Makhni",
+      "price": 180,
+      "image": "https://devansh1bhardwaj.github.io/BiteExpress.github.io/images/north%20indian/dal%20mahani.jpeg"
+    },
+    {
+      "name": "Shahi Paneer",
+      "price": 220,
+      "image": "https://devansh1bhardwaj.github.io/BiteExpress.github.io/images/north%20indian/paneer.jpeg"
+    },
+    {
+      "name": "Tandoori Roti",
+      "price": 25,
+      "image": "https://devansh1bhardwaj.github.io/BiteExpress.github.io/images/north%20indian/tandoori%20roti.jpeg"
+    }
+  ],
+
+  "South Indian": [
+    {
+      "name": "Masala Dosa",
+      "price": 120,
+      "image": "https://devansh1bhardwaj.github.io/BiteExpress.github.io/images/south%20indian/dosa.jpeg"
+    },
+    {
+      "name": "Idli Sambhar",
+      "price": 80,
+      "image": "https://devansh1bhardwaj.github.io/BiteExpress.github.io/images/south%20indian/idli.jpeg"
+    },
+    {
+      "name": "Uttapam",
+      "price": 110,
+      "image": "https://devansh1bhardwaj.github.io/BiteExpress.github.io/images/south%20indian/Uttapam.jpeg"
+    },
+    {
+      "name": "Lemon Rice",
+      "price": 90,
+      "image": "https://devansh1bhardwaj.github.io/BiteExpress.github.io/images/south%20indian/lemonRice.jpeg"
+    }
+  ],
+
+  "Chinese": [
+    {
+      "name": "Chowmein",
+      "price": 140,
+      "image": "https://devansh1bhardwaj.github.io/BiteExpress.github.io/images/chinese/chowmein.jpg"
+    },
+    {
+      "name": "Dumplings",
+      "price": 160,
+      "image": "https://devansh1bhardwaj.github.io/BiteExpress.github.io/images/chinese/dumplings.jpg"
+    },
+    {
+      "name": "Manchurian",
+      "price": 150,
+      "image": "https://devansh1bhardwaj.github.io/BiteExpress.github.io/images/chinese/manchurian.jpg"
+    },
+    {
+      "name": "Spring Roll",
+      "price": 130,
+      "image": "https://devansh1bhardwaj.github.io/BiteExpress.github.io/images/chinese/springRoll.jpg"
+    }
+  ],
+
+  "Desert": [
+    {
+      "name": "Gulab Jamun",
+      "price": 60,
+      "image": "https://www.cadburydessertscorner.com/hubfs/dc-website-2022/articles/soft-gulab-jamun-recipe-for-raksha-bandhan-from-dough-to-syrup-all-you-need-to-know/soft-gulab-jamun-recipe-for-raksha-bandhan-from-dough-to-syrup-all-you-need-to-know.webp"
+    },
+    {
+      "name": "Rasgulla",
+      "price": 60,
+      "image": "https://madhurasrecipe.com/wp-content/uploads/2023/10/Rasgulla-Featured-Image.jpg"
+    },
+    {
+      "name": "Chocolate Brownie",
+      "price": 120,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPdCU736BBZWKi_kaT7lUyvoJNA26HQr__Hw&s"
+    },
+    {
+      "name": "Ice Cream Sundae",
+      "price": 100,
+      "image": "https://www.chocolatemoosey.com/wp-content/uploads/2016/04/Fried-Ice-Cream-Sundaes-3227.jpg"
+    }
+  ]
+}

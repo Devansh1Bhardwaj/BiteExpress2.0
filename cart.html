@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cart - Bite Express</title>
+  <script src="https://kit.fontawesome.com/a77819ac0c.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="cart-style.css" />
+</head>
+
+<body>
+  <header>
+    <a href="/" class="Logo-link">
+      <h1>Bite Express</h1>
+    </a>
+    <nav>
+      <li class="nav-li" title="North indian cuisine">
+        <a href="./food-items/North-Indian.html" class="nav-link menu-link">North Indian</a>
+      </li>
+      <li class="nav-li" title="South indian cuisine">
+        <a href="./food-items/South-Indian.html" class="nav-link menu-link">South Indian</a>
+      </li>
+      <li class="nav-li" title="Chinese cuisine">
+        <a href="./food-items/Chinese.html" class="nav-link menu-link">Chinese</a>
+      </li>
+      <li class="nav-li" title="Deserts">
+        <a href="./food-items/Desert.html" class="nav-link menu-link">Deserts</a>
+      </li>
+      <li class="nav-li" title="Cart">
+        <a href="./cart.html" class="nav-link"><i class="fa-solid fa-cart-plus"></i></a>
+      </li>
+      <i class="fa-solid fa-xmark nav-close"></i>
+    </nav>
+    <i class="fa-solid fa-bars hamburger-icon"></i>
+  </header>
+
+  <h2 class="heading">Your Cart</h2>
+
+  <div class="cart-items"></div>
+
+  <div class="checkout"></div>
+
+  <div class="qr-section hide">
+    <div class="qr-card">
+      <h3 class="pay-heading">Pay using QR Code</h3>
+      <img src="https://devansh1bhardwaj.github.io/BiteExpress.github.io/images/QR.png" alt="payment-qr"
+        class="pay-qr-image" />
+      <p class="pay-amount"></p>
+      <a href="./success.html" class="payment-success-link">I have completed the payment</a>
+      <button class="pay-cancel-btn">Cancel</button>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <h3>Bite Express</h3>
+        <p>Delicious food, delivered fresh.</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Menu</h4>
+        <ul>
+          <li>
+            <a href="./food-items/North-Indian.html">North Indian</a>
+          </li>
+          <li>
+            <a href="./food-items/South-Indian.html">South Indian</a>
+          </li>
+          <li><a href="./food-items/Chinese.html">Chinese</a></li>
+          <li><a href="./food-items/Desert.html">Deserts</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="./">Home</a></li>
+          
+          <li><a href="./cart.html">Cart</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 Bite Express. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+  <script src="./cart-script.js"></script>
+</body>
+
+</html>

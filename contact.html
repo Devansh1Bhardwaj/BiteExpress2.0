@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Bite Express</title>
+    <script
+      src="https://kit.fontawesome.com/a77819ac0c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+      .contact-section {
+        max-width: 700px;
+        margin: 80px auto;
+        padding: 40px 35px;
+        background: #ffffff;
+        border-radius: 14px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+      }
+
+      .contact-title {
+        font-size: 32px;
+        font-weight: 700;
+        margin-bottom: 16px;
+        color: #111;
+        text-align: center;
+      }
+
+      .contact-description {
+        font-size: 16px;
+        color: #555;
+        text-align: center;
+        line-height: 1.6;
+        margin-bottom: 30px;
+      }
+
+      .contact-details {
+        background: #f9f9f9;
+        border-radius: 10px;
+        padding: 25px 30px;
+      }
+
+      .contact-details p {
+        font-size: 16px;
+        color: #333;
+        margin-bottom: 14px;
+        display: flex;
+        align-items: flex-start;
+        gap: 8px;
+      }
+
+      .contact-details p:last-child {
+        margin-bottom: 0;
+      }
+
+      .contact-details strong {
+        color: #000;
+        min-width: 120px;
+      }
+
+      /* Optional hover polish */
+      .contact-section:hover {
+        transform: translateY(-2px);
+        transition: transform 0.2s ease;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <a href="./" class="Logo-link">
+        <h1>Bite Express</h1>
+      </a>
+      <nav>
+        <li class="nav-li" title="North indian cuisine">
+          <a href="./food-items/North-Indian.html" class="nav-link menu-link"
+            >North Indian</a
+          >
+        </li>
+        <li class="nav-li" title="South indian cuisine">
+          <a href="./food-items/South-Indian.html" class="nav-link menu-link"
+            >South Indian</a
+          >
+        </li>
+        <li class="nav-li" title="Chinese cuisine">
+          <a href="./food-items/Chinese.html" class="nav-link menu-link"
+            >Chinese</a
+          >
+        </li>
+        <li class="nav-li" title="Deserts">
+          <a href="./food-items/Desert.html" class="nav-link menu-link"
+            >Deserts</a
+          >
+        </li>
+        <li class="nav-li" title="Cart">
+          <a href="./cart.html" class="nav-link"
+            ><i class="fa-solid fa-cart-plus"></i
+          ></a>
+        </li>
+        <i class="fa-solid fa-xmark nav-close"></i>
+      </nav>
+      <i class="fa-solid fa-bars hamburger-icon"></i>
+    </header>
+
+    <div class="contact-section">
+      <h2 class="contact-title">Contact Us</h2>
+
+      <p class="contact-description">
+        Have questions, feedback, or partnership ideas?<br />
+        We’d love to hear from you! Reach us using the details below:
+      </p>
+
+      <div class="contact-details">
+        <p><strong>Address:</strong> 123 Mall Street, Ghaziabad, India</p>
+        <p><strong>Phone:</strong> +91 1122334455</p>
+        <p><strong>Email:</strong> info@biteexpress.com</p>
+        <p><strong>Working Hours:</strong> 9:00 AM – 10:00 PM (7 days)</p>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-brand">
+          <h3>Bite Express</h3>
+          <p>Delicious food, delivered fresh.</p>
+        </div>
+
+        <div class="footer-links">
+          <h4>Menu</h4>
+          <ul>
+            <li>
+              <a href="./food-items/North-Indian.html">North Indian</a>
+            </li>
+            <li>
+              <a href="./food-items/South-Indian.html">South Indian</a>
+            </li>
+            <li><a href="./food-items/Chinese.html">Chinese</a></li>
+            <li><a href="./food-items/Desert.html">Deserts</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="./">Home</a></li>
+            
+            <li><a href="./cart.html">Cart</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Bite Express. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
