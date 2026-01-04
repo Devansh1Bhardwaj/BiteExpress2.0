@@ -59,12 +59,13 @@ function renderContent(data, menu_name) {
                 cartItems.push({ ...item, quantity: 1 });
                 localStorage.setItem('menu', JSON.stringify(cartItems));
             }
-            window.location.href = "/cart.html"
+            window.location.href = "../cart.html"
         });
 
         container.appendChild(card);
     });
 }
+
 
 
 
